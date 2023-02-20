@@ -13,3 +13,9 @@ Check the following Diagram:
 ![](diagram.png)
 
 You can find a code example [here](src/index.ts).
+
+To execute the example, run the following command in your terminal:
+
+```sh
+pnpm template-method
+```
