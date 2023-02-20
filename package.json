@@ -1,5 +1,5 @@
 {
-  "name": "designpatterns",
+  "name": "design-patterns",
   "version": "0.1.0",
   "main": "src/index.ts",
   "description": "Design Patterns in TypeScript",
@@ -49,5 +49,25 @@
       "src/**/*.test.ts"
     ],
     "exec": "npx ts-node -r dotenv/config ./src/index"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eslint-module-utils": "^2.7.4",
+    "eslint-import-resolver-node": "^0.3.7",
+    "eslint-plugin-es": "^4.1.0",
+    "eslint-scope": "^7.1.1",
+    "eslint-visitor-keys": "^3.3.0",
+    "eslint-utils": "^3.0.0",
+    "prettier-linter-helpers": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyLzq/DesignPatterns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyLzq/DesignPatterns/issues"
+  },
+  "homepage": "https://github.com/AnthonyLzq/DesignPatterns#readme"
 }
